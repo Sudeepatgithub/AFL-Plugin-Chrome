@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dev Tools</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open_sans" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style media="screen">
+      html, body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+      h1 {
+        font-family: 'Menlo', monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876
+      }
+      a:link, a:visited {
+        color: #000;
+        outline: 0;
+        text-decoration: none;
+      }
+      img {
+        width: 30px;
+      }
+      .modal-header{
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+      .modal-content {
+        padding: 0 22px;
+      }
+      .modal-icons{
+        border-top: 0.5px solid #dadada;
+        widows: 100%;
+      }
+      .logo {
+        padding: 16px;
+      }
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+      .version {
+        color: #444;
+        font-size: 18px;
+      }
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+      }
+      .flex:hover{
+        opacity: 0.4;
+      }
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+    <h1 class="logo">
+      <img src="images/grpn-logo.png" alt="AFL Dev Tools" class="logo-icon">
+      Quick Access
+    </h1>
+    </div>
+    <div>
+      <h6 style="padding-left: 15px;font-size: 14px">Dev</h6>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://groupon.wavefront.com/api/login/saml?path=https%3A%2F%2Fgroupon.wavefront.com%2Fdashboard%2Fsac1_snc1-gpn-platform-activity&customerId=groupon#_v01(g:(c:off,d:7200,ls:!f,s:1564653260,w:'2h'))" target="_blank">
+            <img src="images/wavefront-us.png" style="width:50px;height:50px;">  
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://groupon.wavefront.com/dashboard/dub1-gpn-international#_v01(g:(c:off,d:7200,ls:!t,s:1564653269,w:%272h%27))" target="_blank">
+            <img src="images/wavefront-int.png" style="width:50px;height:50px;">  
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://jira.groupondev.com/secure/RapidBoard.jspa?" target="_blank">  
+            <img src="images/JIRA.png" style="width:50px;height:50px;">  
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://jira.groupondev.com/secure/RapidBoard.jspa?" target="_blank">  
+            <img src="images/splunk-int.png" style="width:50px;height:50px;">  
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://jira.groupondev.com/secure/RapidBoard.jspa?" target="_blank">  
+            <img src="images/splunk-us.png" style="width:50px;height:50px;">  
+          </a>
+        </div>
+      </div>
+      <div>
+        <h6 style="padding-left: 15px;font-size: 14px">Portals</h6>
+      </div >
+      <hr style="margin-top: -2px;color: #93a8b8;"/>
+      <div class="flex-container">
+
+      </div>
+      <div>
+        <h6 style="padding-left: 15px;font-size: 14px">Other</h6>
+      </div >
+      <hr style="margin-top: -2px;color: #93a8b8;"/>
+      <div class="flex-container">
+
+      </div>
+    </div>
+</html>
