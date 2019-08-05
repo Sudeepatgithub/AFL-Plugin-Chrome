@@ -7,7 +7,6 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <style media="screen">
       html, body {
         font-family: 'Open Sans', sans-serif;
@@ -50,18 +49,15 @@
         vertical-align: text-bottom;
         margin-right: 12px;
       }
-      .version {
-        color: #444;
-        font-size: 18px;
-      }
       .flex-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         padding: 10px 20px;
       }
       .flex {
         opacity: 1;
         transition: opacity 0.2s ease-in-out;
+        padding-right:20px;
       }
       .flex:hover{
         opacity: 0.4;
@@ -76,7 +72,7 @@
     <div>
     <h1 class="logo">
       <img src="images/grpn-logo.png" alt="AFL Dev Tools" class="logo-icon">
-      Quick Access
+      AFL Util
     </h1>
     </div>
     <div>
@@ -84,6 +80,11 @@
     </div>
     <div class="modal-icons">
       <div class="flex-container">
+          <div class="flex">
+              <a href="https://jira.groupondev.com/secure/RapidBoard.jspa?" target="_blank">  
+                <img src="images/JIRA.png" style="width:50px;height:50px;">  
+              </a>
+            </div>
         <div class="flex">
           <a href="https://groupon.wavefront.com/api/login/saml?path=https%3A%2F%2Fgroupon.wavefront.com%2Fdashboard%2Fsac1_snc1-gpn-platform-activity&customerId=groupon#_v01(g:(c:off,d:7200,ls:!f,s:1564653260,w:'2h'))" target="_blank">
             <img src="images/wavefront-us.png" style="width:50px;height:50px;">  
@@ -92,11 +93,6 @@
         <div class="flex">
           <a href="https://groupon.wavefront.com/dashboard/dub1-gpn-international#_v01(g:(c:off,d:7200,ls:!t,s:1564653269,w:%272h%27))" target="_blank">
             <img src="images/wavefront-int.png" style="width:50px;height:50px;">  
-          </a>
-        </div>
-        <div class="flex">
-          <a href="https://jira.groupondev.com/secure/RapidBoard.jspa?" target="_blank">  
-            <img src="images/JIRA.png" style="width:50px;height:50px;">  
           </a>
         </div>
         <div class="flex">
@@ -114,15 +110,35 @@
         <h6 style="padding-left: 15px;font-size: 14px">Portals</h6>
       </div >
       <hr style="margin-top: -2px;color: #93a8b8;"/>
-      <div class="flex-container">
-
+      <div class="flex-container" style="margin-top: -15px;">
+        <div class="flex">
+          <a href="https://optimus.groupondev.com" target="_blank">  
+            <img src="images/Optimus.png" style="width:50px;height:50px;">  
+          </a>
+        </div>
+        <div class="flex">
+            <a href="https://ci.groupondev.com/dotci1/" target="_blank">  
+              <img src="images/Jenkins.png" style="width:50px;height:50px;">  
+            </a>
+          </div>
       </div>
       <div>
-        <h6 style="padding-left: 15px;font-size: 14px">Other</h6>
+        <h6 style="padding-left: 15px;font-size: 14px">Help</h6>
       </div >
       <hr style="margin-top: -2px;color: #93a8b8;"/>
-      <div class="flex-container">
-
+      <div class="flex-container" style="margin-top: -15px;">
+          <div class="flex">
+              <a href="https://grouponhd.zendesk.com/hc/en-us/restricted?return_to=https%3A%2F%2Fgrouponhd.zendesk.com%2Fhc%2Fen-us" target="_blank">  
+                <img src="images/zendesk.png" style="width:50px;height:50px;">  
+              </a>
+            </div>
+            <div class="flex">
+                <a href=" https://pages.github.groupondev.com/engineering/" target="_blank">  
+                  <img src="images/handbook.png" style="width:50px;height:50px;">  
+                </a>
+              </div>
+        </div>
       </div>
+     
     </div>
 </html>
